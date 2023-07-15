@@ -6,7 +6,6 @@ class Settings(BaseSettings):
     db_name: str
     db_port: str
     db_pwd: str
-    db_url: str
     db_user: str
 
     access_token_expire_minutes: int
